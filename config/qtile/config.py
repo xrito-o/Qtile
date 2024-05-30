@@ -30,7 +30,7 @@ from libqtile.lazy import lazy
 from libqtile.utils import guess_terminal
 
 mod = "mod4"
-terminal = "xfce4-terminal"
+terminal = "kitty"
 
 keys = [
     # A list of available commands that can be bound to keys can be found
