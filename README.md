@@ -1,2 +1,2 @@
-# Qtile
+# dotfiles
 Qtile configuration
