@@ -1,3 +1,27 @@
-if status is-interactive
-    # Commands to run in interactive sessions can go here
+#if status is-interactive
+function fish_greeting
+    neofetch
 end
+    # Commands to run in interactive sessions can go here
+
+# custom prompt
+function fish_user_key_bindings
+  fish_vi_key_bindings
+
+  # set kj to <Esc>
+  bind -M insert -m default kj backward-char force-repaint
+end
+# indicator for vi
+function fish_mode_prompt
+  switch "$fish_bind_mode"
+    case "default"
+      echo -n (set_color f43f5e)"𝓷"
+    case "insert"
+      echo -n (set_color 84cc16)"𝒾"
+    case "visual"
+      echo -n (set_color 8b5cf6)"𝓿"
+    case "*"
+      echo -n "?"
+   end
+
+  echo -n " "
