@@ -68,19 +68,20 @@ def init_colors():
         ["#66b2b2", "#66b2b2"],  # 10
         ["#2e3440", "#2e3440"],  # 11 background
         ["#d8dee9", "#d8dee9"],  # 12 foreground
-        ["#3b4252", "#3b4252"],  # 13 background lighter
+        ["#3b4252", "#3b4252"],  # 13 background l#ebcb8bighter
         ["#bf616a", "#bf616a"],  # 14 red
         ["#a3be8c", "#a3be8c"],  # 15 green
         ["#ebcb8b", "#ebcb8b"],  # 16 yellow
         ["#81a1c1", "#81a1c1"],  # 17 blue
         ["#b48ead", "#b48ead"],  # 18 magenta
-        ["#88c0d0", "#88c0d0"],  # 19 cyan
+        ["#88c0d0", "#88c0d0"],  # 19 cyan#ebcb8b
         ["#e5e9f0", "#e5e9f0"],  # 20 white
         ["#4c566a", "#4c566a"],  # 21 grey
         ["#d08770", "#d08770"],  # 22 orange
         ["#8fbcbb", "#8fbcbb"],  # 23 super cyan
         ["#5e81ac", "#5e81ac"],  # 24 super blue
         ["#242831", "#242831"],  # 25 super dark background
+        ["#ebcb8b", "#ebcb8b"],  # 26
     ]
 
 
@@ -364,7 +365,7 @@ def init_widgets_list():
                     padding_y=5,
                     padding_x=10,
                     borderwidth=3,
-                    active=colors[8],
+                    active=colors[26],
                     inactive=colors[2],
                     rounded=True,
                     highlight_color=colors[1],
@@ -393,7 +394,7 @@ def init_widgets_list():
                     scale=0.45,
                 ),
                 widget.CurrentLayout(
-                    foreground=colors[8],
+                    foreground=colors[26],
                     background=colors[0],
                     padding=5,
                 ),
@@ -418,7 +419,7 @@ def init_widgets_list():
                     foreground = colors[0],
                     background = colors[0],
                     borderwidth = 0,
-                    border = colors[8],
+                    border = colors[26],
                     margin_y = -3,
                     margin = 0,
                     padding = 8,
@@ -452,49 +453,51 @@ def init_widgets_list():
                 ),
                 widget.Systray(
                     icon_size=15,
+                    padding=2,
                     background=colors[0],
+                    foreground=colors[26],
 
                     ),
                  widget.TextBox(
                     text='  ',
                     background=colors[0],
-                    foreground=colors[8],
+                    foreground=colors[26],
                     padding=2,
-                    fontsize=20,
+                    fontsize=15,
                     mouse_callbacks={'Button1': lazy.spawn('de.shorsh.discord-screenaudio')},
                 ),
                  widget.TextBox(
                     text='   ',
                     background=colors[0],
-                    foreground=colors[8],
+                    foreground=colors[26],
                     padding=2,
-                    fontsize=20,
+                    fontsize=15,
                     mouse_callbacks={'Button1': lazy.spawn('com.github.KRTirtho.Spotube')},
                 ),
                  widget.TextBox(
                     text='  ',
                     background=colors[0],
-                    foreground=colors[8],
+                    foreground=colors[26],
                     padding=2,
-                    fontsize=25,
+                    fontsize=15,
                     mouse_callbacks={'Button1': lazy.spawn("/home/xrito/.config/qtile/scripts/keyboard.sh")},
                 ),
 
                 widget.TextBox(
                     text='  ',
                     background=colors[0],
-                    foreground=colors[8],
+                    foreground=colors[26],
                     padding=2,
-                    fontsize=20,
+                    fontsize=15,
                     mouse_callbacks={'Button1': lazy.spawn('stacer')},
                 ),
 
                 widget.TextBox(
                     text='󰋫 ',
                     background=colors[0],
-                    foreground=colors[8],
+                    foreground=colors[26],
                     padding=2,
-                    fontsize=25,
+                    fontsize=20,
                     mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('nitrogen')},
                 ),
                 # widget.TextBox(
@@ -555,12 +558,12 @@ def init_widgets_list():
                 widget.TextBox(
                     text='󰈀 ',
                     background=colors[0],
-                    foreground=colors[8],
+                    foreground=colors[26],
                     padding=0,
-                    fontsize=30,
+                    fontsize=20,
                 ),
                 widget.Net(
-                    foreground=colors[8],
+                    foreground=colors[26],
                     background=colors[0],
                     format = ' {down:.0f}{down_suffix}     {up:.0f}{up_suffix}',
                     prefix='M'
@@ -583,13 +586,13 @@ def init_widgets_list():
                 widget.TextBox(
                     text='󰓃',
                     background=colors[0],
-                    foreground=colors[8],
+                    foreground=colors[26],
                     padding=0,
-                    fontsize=25,
+                    fontsize=20,
                     mouse_callbacks = {'Button1': lambda: qtile.cmd_spawn("pavucontrol")},
                 ),
                 widget.Volume(
-                    foreground=colors[8],
+                    foreground=colors[26],
                     background=colors[0],
                     fmt='{}',
                     padding=3,
@@ -607,7 +610,7 @@ def init_widgets_list():
                 widget.TextBox(
                     text='⏻ ',
                     background=colors[0],
-                    foreground=colors[8],
+                    foreground=colors[26],
                     padding=0,
                     fontsize=20,
                     mouse_callbacks={'Button1': lazy.spawn('/home/xrito/.config/qtile/scripts/powermenu.sh')},
@@ -638,8 +641,8 @@ widgets_screen2 = init_widgets_screen2()
 
 def init_screens():
     return [
-            Screen(top=bar.Bar(widgets=init_widgets_screen1(), size=35, opacity=1))
-            #Screen(bottom=bar.Bar(widgets=init_widgets_screen1(), size=50, opacity=0.85))
+            #Screen(top=bar.Bar(widgets=init_widgets_screen1(), size=28, opacity=0.95))
+            #Screen(bottom=bar.Bar(widgets=init_widgets_screen1(), size=25, opacity=0.95))
         ]
 screens = init_screens()
 
@@ -731,3 +734,44 @@ def autostart():
 def autostart():
     home = os.path.expanduser('/home/xrito/.config/qtile/scripts/conky.sh')
     subprocess.Popen([home])
+
+# In your Qtile config.py
+
+
+@hook.subscribe.startup_once
+def autostart(qtile):
+    # Function to spawn Firefox in a specific workspace
+    def spawn_firefox_in_workspace(qtile, workspace):
+        qtile.spawn("firefox")
+        qtile.group["3"].toscreen()  # Move Firefox to workspace 3
+
+    # Example: Start Firefox in workspace 3
+    #spawn_firefox_in_workspace(qtile, 3)
+
+    # You can add more applications or configurations here
+
+
+@hook.subscribe.startup_once
+def autostart(qtile):
+    # Function to spawn Firefox in a specific workspace
+    def spawn_firefox_in_workspace(qtile, workspace):
+        qtile.spawn("dev.vencord.Vesktop")
+        qtile.group["9"].toscreen()  # Move Firefox to workspace 3
+
+    # Example: Start Firefox in workspace 3
+    #spawn_dev.vencord.Vesktop_in_workspace(qtile, 9)
+
+    # You can add more applications or configurations here
+
+
+@hook.subscribe.startup_once
+def autostart(qtile):
+    # Function to spawn Firefox in a specific workspace
+    def spawn_firefox_in_workspace(qtile, workspace):
+        qtile.spawn("kitty")
+        qtile.group["1"].toscreen()  # Move Firefox to workspace 3
+
+    # Example: Start Firefox in workspace 3
+    #spawn_kitty_in_workspace(qtile, 2)
+
+    # You can add more applications or configurations here

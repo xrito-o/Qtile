@@ -4,22 +4,23 @@ BROWSER="firefox"
 
 declare -a options=(
 
-"1 - https://youtube.com"
-"2 - https://reddit.com"
-"3 - https://monkeytype.com"
-"4 - https://reddit.com/r/unixporn"
-"5 - https://github.com"
-"6 - https://www.nerdfonts.com/cheat-sheet"
-"7 - https://wallhaven.cc"
-"8 - https://www.geeksforgeeks.org/how-to-create-a-shell-script-in-linux/"
-"9 - https://rms-support-letter.github.io/"
+"1 - (youtube)   								https://youtube.com"
+"2 - (reddit) 									https://reddit.com"
+"3 - (monkeytype) 								https://monkeytype.com"
+"4 - (unixporn) 								https://reddit.com/r/unixporn"
+"5 - (github) 									https://github.com"
+"6 - (nerdfonts-cheat-sheet) 					https://www.nerdfonts.com/cheat-sheet"
+"7 - (wallhaven) 								https://wallhaven.cc"
+"8 - (how-to-create-a-shell-script-in-linux) 	https://www.geeksforgeeks.org/how-to-create-a-shell-script-in-linux/"
+"9 - (wabsites-style) 							https://rms-support-letter.github.io/"
+"10 -(Rofi-User-scripts) 						https://github.com/davatorium/rofi/wiki/User-scripts"
 
 
 
 "quit"
 )
 
-choice=$(printf '%s\n' "${options[@]}" | rofi -dmenu -i -l 9 -p 'Bookmarks')
+choice=$(printf '%s\n' "${options[@]}" | rofi -dmenu -i -l 10 -p 'Bookmarks')
 
 
 if [[ "$choice" == quit ]]; then
