@@ -1,0 +1,21 @@
+set $wallpaper /home/xrito/wallpapers/nord-background/ign_cityRain.png
+
+set $background #1b1e25
+set $foreground #c6c6c8
+
+set $color0 #1b1e25
+set $color1 #667475
+set $color2 #947D74
+set $color3 #74857A
+set $color4 #617686
+set $color5 #738B8B
+set $color6 #7697A5
+set $color7 #c6c6c8
+set $color8 #626878
+set $color9 #667475
+set $color10 #947D74
+set $color11 #74857A
+set $color12 #617686
+set $color13 #738B8B
+set $color14 #7697A5
+set $color15 #c6c6c8

@@ -1,0 +1,28 @@
+{
+    "checksum": "2bdc42a2748a1a50573db47c68b03fe3",
+    "wallpaper": "/home/xrito/aesthetic-wallpapers/images/dark_forest.png",
+    "alpha": "100",
+    "special": {
+        "background": "#010A0F",
+        "foreground": "#bfc1c3",
+        "cursor": "#bfc1c3"
+    },
+    "colors": {
+        "color0": "#010A0F",
+        "color1": "#1F4860",
+        "color2": "#355464",
+        "color3": "#335568",
+        "color4": "#3B6279",
+        "color5": "#415E6F",
+        "color6": "#44677B",
+        "color7": "#bfc1c3",
+        "color8": "#545f67",
+        "color9": "#1F4860",
+        "color10": "#355464",
+        "color11": "#335568",
+        "color12": "#3B6279",
+        "color13": "#415E6F",
+        "color14": "#44677B",
+        "color15": "#bfc1c3"
+    }
+}

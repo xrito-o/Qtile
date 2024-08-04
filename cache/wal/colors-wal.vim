@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/xrito/wallpapers/nord-background/ign_cityRain.png"
+let background = "#1b1e25"
+let foreground = "#c6c6c8"
+let cursor     = "#c6c6c8"
+
+" Colors
+let color0  = "#1b1e25"
+let color1  = "#667475"
+let color2  = "#947D74"
+let color3  = "#74857A"
+let color4  = "#617686"
+let color5  = "#738B8B"
+let color6  = "#7697A5"
+let color7  = "#c6c6c8"
+let color8  = "#626878"
+let color9  = "#667475"
+let color10 = "#947D74"
+let color11 = "#74857A"
+let color12 = "#617686"
+let color13 = "#738B8B"
+let color14 = "#7697A5"
+let color15 = "#c6c6c8"
