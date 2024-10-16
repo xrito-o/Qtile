@@ -6,7 +6,7 @@ This is a list of the tools and configurations I use in my Arch Linux environmen
 - [💻 Terminal](#-terminal)
 - [🗂️ File Manager](#%EF%B8%8F-file-manager)
 - [📊 System Information](#-system-information)
-- [📝 Text Editors and IDEs](#-text-editors-and-ides)
+- [📝 Text Editors and IDEs](#-text-editors-and-ides)dated the anchor links by removing emojis in the anchor part while keeping them visible in the headings. Here's the corrected version:
 - [🚀 Application Launcher](#-application-launcher)
 - [🎨 Appearance Management](#-appearance-management)
 - [📦 Package Management](#-package-management)
