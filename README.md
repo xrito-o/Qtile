@@ -3,7 +3,7 @@
 This is a list of the tools and configurations I use in my Arch Linux environment with the Qtile window manager.
 
 ## Table of Contents
-- [💻 Terminal](#terminal)
+- [💻 Terminal](#Terminal)
 - [🗂️ File Manager](#file-manager)
 - [📊 System Information](#system-information)
 - [📝 Text Editors and IDEs](#text-editors-and-ides)
