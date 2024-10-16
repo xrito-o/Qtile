@@ -4,18 +4,18 @@ This is a list of the tools and configurations I use in my Arch Linux environmen
 
 ## Table of Contents
 - [💻 Terminal](#-terminal)
-- [🗂️ File Manager](#-file-manager)
-- [📊 System Information](#system-information)
-- [📝 Text Editors and IDEs](#text-editors-and-ides)
-- [🚀 Application Launcher](#application-launcher)
-- [🎨 Appearance Management](#appearance-management)
-- [📦 Package Management](#package-management)
-- [🌐 Remote Desktop](#remote-desktop)
-- [🎶 Music](#music)
-- [🔧 Utilities](#utilities)
-- [🖌️ Theme and Icons](#theme-and-icons)
-- [🔠 Fonts](#fonts)
-- [🌍 Web Browser](#web-browser)
+- [🗂️ File Manager](#%EF%B8%8F-file-manager)
+- [📊 System Information](#-system-information)
+- [📝 Text Editors and IDEs](#-text-editors-and-ides)
+- [🚀 Application Launcher](#-application-launcher)
+- [🎨 Appearance Management](#-appearance-management)
+- [📦 Package Management](#-package-management)
+- [🌐 Remote Desktop](#-remote-desktop)
+- [🎶 Music](#-music)
+- [🔧 Utilities](#-utilities)
+- [🖌️ Theme and Icons](#%EF%B8%8F-theme-and-icons)
+- [🔠 Fonts](#-fonts)
+- [🌍 Web Browser](#-web-browser)
 
 ## 💻 Terminal
 - **Kitty**: My terminal emulator of choice for its speed and extensive customization.
