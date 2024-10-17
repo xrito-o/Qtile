@@ -30,8 +30,6 @@ This is a list of the tools and configurations I use in my Arch Linux environmen
 - **Mousepad**: Simple and user-friendly text editor for quick edits.
 - **Leafpad**: Another lightweight text editor, great for minimal use.
 - **Visual Studio Code**: My preferred IDE for coding, offering a vast range of extensions and excellent development features.
-- **VSCodium (Vesktop)**: A free and open-source version of Visual Studio Code.
-
 ## 🚀 Application Launcher
 - **Rofi**: An application launcher that provides quick access to apps and more.
 
