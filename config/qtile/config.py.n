@@ -625,7 +625,7 @@ def init_widgets_list():
                     font="Ubuntu Mono",
                     background=colors[0],
                     foreground=colors[1],
-                    padding=-8,
+                    padding=0,
                     fontsize=60
                 ),
 
@@ -633,8 +633,8 @@ def init_widgets_list():
                     text='⏻ ',
                     background=colors[0],
                     foreground=colors[26],
-                    padding=5,
-                    fontsize=17,
+                    padding=0,
+                    fontsize=20,
                     mouse_callbacks={'Button1': lazy.spawn('/home/xrito/.config/qtile/scripts/powermenu.sh')},
                 ),
 
@@ -663,7 +663,7 @@ widgets_screen2 = init_widgets_screen2()
 
 def init_screens():
     return [
-            Screen(top=bar.Bar(widgets=init_widgets_screen1(), size=27, opacity=1))
+            Screen(top=bar.Bar(widgets=init_widgets_screen1(), size=28, opacity=0.95))
             #Screen(bottom=bar.Bar(widgets=init_widgets_screen1(), size=25, opacity=0.95))
         ]
 screens = init_screens()
