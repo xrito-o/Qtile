@@ -1,3 +1,8 @@
+# Here is a screenshot of my Arch Linux with Qtile setup:
+<p align="center">
+  <img src="https://raw.githubusercontent.com/xrito-o/Qtile/refs/heads/main/assets/screenshot_2024-11-06_10-38-40.png" alt="Screenshot of Arch Linux with Qtile" width="80%">
+</p>
+
 # 🖥️ Tools I Use in My Arch Linux with Qtile
 
 This is a list of the tools and configurations I use in my Arch Linux environment with the Qtile window manager.
