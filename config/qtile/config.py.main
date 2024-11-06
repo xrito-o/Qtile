@@ -31,7 +31,6 @@ from libqtile.config import Click, Drag, Group, ScratchPad, DropDown, Key, Match
 from libqtile.lazy import lazy
 from libqtile.utils import guess_terminal
 from libqtile.layout.floating import Floating
-from qtile_extras import widget
 
 """
 -----------
@@ -458,8 +457,6 @@ def init_widgets_list():
                     padding=0,
                     fontsize=60
                 ),
-
-
                 widget.Systray(
                     icon_size=15,
                     padding=2,

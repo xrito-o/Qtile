@@ -2,7 +2,8 @@
 xrandr --output HDMI-1 --mode 1920x1080 --rate 75 &
 nitrogen --restore &
 while pgrep -u $UID -x picom >/dev/null; do sleep 1; done
-picom --config /home/xrito/.config/picom/picom.conf --vsync &
+#picom --config /home/xrito/.config/picom/picom.conf --vsync &
+picom --config /home/xrito/.config/picom/picom.conf &
 #rm -rf .wallpapers/video/ &
 nm-applet &
 dunst &
