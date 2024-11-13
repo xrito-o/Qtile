@@ -1,0 +1,32 @@
+       
+
+
+
+
+
+        ["#282c34", "#282c34"],  # 0
+        ["#1c1f24", "#1c1f24"],  # 1
+        ["#dfdfdf", "#dfdfdf"],  # 2
+        ["#ff6c6b", "#ff6c6b"],  # 3
+        ["#98be65", "#98be65"],  # 4
+        ["#da8548", "#da8548"],  # 5
+        ["#51afef", "#51afef"],  # 6
+        ["#c678dd", "#c678dd"],  # 7
+        ["#2bc0ad", "#2bc0ad"],  # 8
+        ["#a9a1e1", "#a9a1e1"],  # 9
+        ["#66b2b2", "#66b2b2"],  # 10
+        ["#2e3440", "#2e3440"],  # 11 background
+        ["#d8dee9", "#d8dee9"],  # 12 foreground
+        ["#3b4252", "#3b4252"],  # 13 background lighter
+        ["#bf616a", "#bf616a"],  # 14 red
+        ["#a3be8c", "#a3be8c"],  # 15 green
+        ["#ebcb8b", "#ebcb8b"],  # 16 yellow
+        ["#81a1c1", "#81a1c1"],  # 17 blue
+        ["#b48ead", "#b48ead"],  # 18 magenta
+        ["#88c0d0", "#88c0d0"],  # 19 cyan
+        ["#e5e9f0", "#e5e9f0"],  # 20 white
+        ["#4c566a", "#4c566a"],  # 21 grey
+        ["#d08770", "#d08770"],  # 22 orange
+        ["#8fbcbb", "#8fbcbb"],  # 23 super cyan
+        ["#5e81ac", "#5e81ac"],  # 24 super blue
+        ["#242831", "#242831"],  # 25 super dark background
